@@ -56,6 +56,11 @@ export class Shell {
 
   public run(): void {
     this.validateRequirements();
+    this.execute();
+  }
+
+  public execute(): void {
+    // to overload
   }
 
   protected isVerbose(): boolean {
