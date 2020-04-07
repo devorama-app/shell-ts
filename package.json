@@ -1,0 +1,53 @@
+{
+  "name": "shell-ts",
+  "version": "1.0.0",
+  "description": "Library to execute command line tasks in nodejs and typescript",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest",
+    "testw": "jest --watchAll",
+    "linter": "eslint --max-warnings=0 . --ext .ts",
+    "watch": "tsc --watch",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devorama-app/shell-ts.git"
+  },
+  "keywords": [
+    "node",
+    "nodejs",
+    "typescript",
+    "ts",
+    "shell",
+    "cli"
+  ],
+  "author": "devorama-app",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/devorama-app/shell-ts/issues"
+  },
+  "homepage": "https://github.com/devorama-app/shell-ts#readme",
+  "devDependencies": {
+    "@types/jest": "^25.2.1",
+    "@types/lodash.get": "^4.4.6",
+    "@types/minimist": "^1.2.0",
+    "@types/node": "^13.11.0",
+    "@types/request-promise-native": "^1.0.17",
+    "@typescript-eslint/eslint-plugin": "^2.26.0",
+    "@typescript-eslint/parser": "^2.26.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.1",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-security": "^1.4.0",
+    "jest": "^25.2.7",
+    "prettier": "^2.0.4",
+    "ts-jest": "^25.3.1",
+    "tslint": "^6.1.1",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "lodash.get": "^4.4.2",
+    "minimist": "^1.2.5"
+  }
+}
