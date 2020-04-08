@@ -2,7 +2,7 @@
   "name": "shell-ts",
   "version": "1.0.0",
   "description": "Library to execute command line tasks in nodejs and typescript",
-  "main": "dist/index.js",
+  "main": "dist/src/index.js",
   "scripts": {
     "commit": "git-cz",
     "test": "jest",
