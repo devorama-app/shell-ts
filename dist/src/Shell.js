@@ -47,7 +47,7 @@ class Shell {
     validateRequirements() {
         for (const key of this.requiredOptions) {
             if (this.isMissingOption(key)) {
-                throw new MissingOptionException_1.default("yolo");
+                throw new MissingOptionException_1.default(key);
             }
         }
         return true;

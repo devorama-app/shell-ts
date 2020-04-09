@@ -76,7 +76,7 @@ export class Shell {
   private validateRequirements(): boolean {
     for (const key of this.requiredOptions) {
       if (this.isMissingOption(key)) {
-        throw new MissingOptionException("yolo");
+        throw new MissingOptionException(key);
       }
     }
     return true;
